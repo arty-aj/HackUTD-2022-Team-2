@@ -3,7 +3,6 @@ nav{
     line-height: 180px;
     text-align: center;
     color: white;
-    border: 2px;
     padding-top: 55px;
     font-family: 'Roboto Mono', monospace;
 }
@@ -20,6 +19,7 @@ h2{
     color: white;
 }
 h3{
+    padding-top: 70px;
     font-size: 25px;
     color: white;
     padding-bottom: 10px;

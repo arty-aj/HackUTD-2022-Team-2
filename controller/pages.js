@@ -21,4 +21,8 @@ router.get('/18', (req, res) => {
     res.render('asteroids18')
 })
 
+router.get('/15', (req, res) => {
+    res.render('asteroids15')
+})
+
 module.exports = router;
