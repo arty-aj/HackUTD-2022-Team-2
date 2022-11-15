@@ -5,8 +5,8 @@ router.get('/', (req, res) => {
     res.render('index')
 })
 
-router.get('/juypter/:asteroidNum', (req, res) => {
-    res.render('juypter', {page: req.params.asteroidNum});
+router.get('/jupyter/:asteroidNum', (req, res) => {
+    res.render('jupyter', {page: req.params.asteroidNum});
 })
 
 module.exports = router;
