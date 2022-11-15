@@ -9,4 +9,8 @@ router.get('/jupyter/:asteroidNum', (req, res) => {
     res.render('jupyter', {page: req.params.asteroidNum});
 })
 
+router.get('/sum', (req, res) => {
+    res.render('sum');
+})
+
 module.exports = router;
