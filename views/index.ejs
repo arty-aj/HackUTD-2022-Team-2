@@ -16,7 +16,11 @@
             <div class="col-3">
                 <h3>Asteroid <%= asteroid %></h3>
                 <span class="hovertext" data-hover="The total cost of asteroid <%= asteroid %>: $<%= sums[asteroid - 1].toFixed(2); %>">
-                    <a href="/jupyter/<%= asteroid %>">
+                    <% if (asteroid == 3 || asteroid == 8 || asteroid == 12 || asteroid == 15 || asteroid == 18) { %>
+                        <a href="/jupyter/<%= asteroid %>">
+                    <% } else { %>
+                        <a href="/">
+                    <% } %>
                         <img alt="Asteroid" src="images/m.gif" class="center">
                     </a>
                 </span>
