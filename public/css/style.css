@@ -1,27 +1,23 @@
+h1, h2, h3, h4, a {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
 h1 {
     font-size: 70px;
 }
 
 h2 {
-    height: 180px;
-    font-family: 'Roboto Mono', monospace;
-    text-align: left;
-    margin-left: 24px;
     font-size: 40px;
-    color: white;
 }
 
 h3 {
-    padding-top: 70px;
     font-size: 25px;
-    color: white;
-    padding-bottom: 10px;
-    padding-left: 24px;
-    font-family: 'Roboto Mono', monospace;
+    padding-top: 50px;
 }
 
 a {
-    color: white;
     font-size: 25px;
 }
 
@@ -32,24 +28,17 @@ body{
     background-size: cover;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .title {
-    text-align: center;
-    color: white;
     padding-top: 50px;
     padding-bottom: 10px;
-    font-family: 'Roboto Mono', monospace;
 }
 
 .center {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 190px;
-}
-
-.centerText {
     display: block;
     margin-left: auto;
     margin-right: auto;
