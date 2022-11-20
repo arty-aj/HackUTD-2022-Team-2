@@ -17,6 +17,13 @@ h3 {
     padding-top: 50px;
 }
 
+@media (max-width: 800px) {
+    h3 {
+        font-size: 15px;
+        padding-top: 50px;
+    }
+}
+
 a {
     font-size: 25px;
 }

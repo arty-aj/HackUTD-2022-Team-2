@@ -13,7 +13,7 @@
         <div class="row">
 
         <% for (let col = 1; col <= 4; col++) { %>
-            <div class="col">
+            <div class="col-3">
                 <h3>Asteroid <%= asteroid %></h3>
                 <span class="hovertext" data-hover="The total cost of asteroid <%= asteroid %>: $<%= sums[asteroid - 1].toFixed(2); %>">
                     <% if (asteroid == 3 || asteroid == 8 || asteroid == 12 || asteroid == 15 || asteroid == 18) { %>
@@ -26,8 +26,9 @@
                 </span>
             </div>
         <% asteroid++ } %>
-
+        
         </div>
+
     <% asteroid-- } %>
 </div>
 
