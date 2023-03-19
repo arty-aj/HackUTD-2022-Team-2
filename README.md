@@ -1,7 +1,7 @@
 # HackUTD-2022-Team-2
 
 Main Page
-<Gif>
-
+![](https://github.com/arty-aj/HackUTD-2022-Team-2/blob/main/AndroidDrillingStats.gif)
+ 
 Data
-<Img>
+![](https://github.com/arty-aj/HackUTD-2022-Team-2/blob/main/AndroidDrillingStatsSumCalc.gif)
